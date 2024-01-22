@@ -16,6 +16,10 @@
         .text-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        hr {
+            background: rgba(19, 19, 24, 0.20) !important;
+        }
     </style>
     <script>
         tailwind.config = {
@@ -31,8 +35,8 @@
 </head>
 
 <body class="text-manrope">
-    <header class="container mx-auto sm:px-4 lg:px-20">
-        <nav>
+    <header class="container mx-auto px-4 lg:px-20">
+        <nav class="my-2">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -75,6 +79,57 @@
                 </div>
             </div>
         </nav>
+
+        <section id="slider" class="mb-10">
+            <!-- Responsive -->
+            <div class="carousel w-full h-[480px] lg:h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full h-full">
+                    <img src="images/slider.png" class="w-full rounded-xl lg:rounded-3xl h-[280px] lg:h-[550px]" />
+                    <div
+                        class="absolute flex gap-4 transform translate-x-1/2 translate-y-1/2 bottom-[50%] left-[30%] lg:left-5 lg:bottom-20">
+                        <a href="#slide3" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                    </div>
+                    <div
+                        class="absolute max-w-max lg:max-w-[560px] lg:max-h-[165px] bottom-0 lg:bottom-6 lg:right-6 bg-[#131318] text-white rounded-xl p-8">
+                        <h3 class="font-extrabold text-2xl mb-4">Meet all the heroes from the field</h3>
+                        <p class="text-[#FFFFFF65]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                            turpis placerat dolor. Purus
+                            urna in sit nullam proin.</p>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full h-full">
+                    <img src="images/slider.png" class="w-full rounded-xl lg:rounded-3xl h-[280px] lg:h-[550px]" />
+                    <div
+                        class="absolute flex gap-4 transform translate-x-1/2 translate-y-1/2 bottom-[50%] left-[30%] lg:left-5 lg:bottom-20">
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                    </div>
+                    <div
+                        class="absolute max-w-max lg:max-w-[560px] lg:max-h-[165px] bottom-0 lg:bottom-6 lg:right-6 bg-[#131318] text-white rounded-xl p-8">
+                        <h3 class="font-extrabold text-2xl mb-4">Meet all the heroes from the field</h3>
+                        <p class="text-[#FFFFFF65]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                            turpis placerat dolor. Purus
+                            urna in sit nullam proin.</p>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full h-full">
+                    <img src="images/slider.png" class="w-full rounded-xl lg:rounded-3xl h-[280px] lg:h-[550px]" />
+                    <div
+                        class="absolute flex gap-4 transform translate-x-1/2 translate-y-1/2 bottom-[50%] left-[30%] lg:left-5 lg:bottom-20">
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                    </div>
+                    <div
+                        class="absolute max-w-max lg:max-w-[560px] lg:max-h-[165px] bottom-0 lg:bottom-6 lg:right-6 bg-[#131318] text-white rounded-xl p-8">
+                        <h3 class="font-extrabold text-2xl mb-4">Meet all the heroes from the field</h3>
+                        <p class="text-[#FFFFFF65]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                            turpis placerat dolor. Purus
+                            urna in sit nullam proin.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
 
