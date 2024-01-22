@@ -17,8 +17,9 @@
             font-family: 'Manrope', sans-serif;
         }
 
-        hr {
-            background: rgba(19, 19, 24, 0.20) !important;
+        .radial-progress:before {
+            inset: 0px;
+            background: radial-gradient(farthest-side, currentColor 98%, #0000) top/var(--thickness) var(--thickness) no-repeat, conic-gradient(currentColor calc(var(--value) * 1%), #E7E7E8 0) !important;
         }
     </style>
     <script>
@@ -80,7 +81,7 @@
             </div>
         </nav>
 
-        <section id="slider" class="mb-10">
+        <section id="slider" class="mb-10 lg:mb-20">
             <!-- Responsive -->
             <div class="carousel w-full h-[480px] lg:h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full h-full">
@@ -131,9 +132,51 @@
             </div>
         </section>
     </header>
-    <main>
 
+    <main class="container mx-auto px-4 lg:px-20">
+        <section id="progress" class="mb-10 lg:mb-20">
+            <div class="heading mb-6 lg:mb-10 py-5 lg:py-8 border-y-2 border-dashed text-center">
+                <div class="max-w-[80%] mx-auto">
+                    <h1 class="text-2xl lg:text-4xl font-extrabold mb-4">Professional Hockeys Club</h1>
+                    <p class="text-[#13131865]">
+                        Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna
+                        in sit nullam proin.
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row items-center justify-evenly gap-6 lg:px-8">
+                <div class="max-w-[70%] lg:max-w-full mx-auto text-center">
+                    <div class="radial-progress text-[#FF4240] rotate-90 mb-5" style="--value:87;" role="progressbar">
+                        <span class="-rotate-90 text-xl font-extrabold">87%</span>
+                    </div>
+                    <h2 class="mb-3 text-xl font-semibold">Prayer Facility</h2>
+                    <p class="text-[#13131865]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="max-w-[70%] lg:max-w-full mx-auto text-center">
+                    <div class="radial-progress text-[#49D293] rotate-90 mb-5" style="--value:95;" role="progressbar">
+                        <span class="-rotate-90 text-xl font-extrabold">95%</span>
+                    </div>
+                    <h2 class="mb-3 text-xl font-semibold">Prayer Facility</h2>
+                    <p class="text-[#13131865]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="max-w-[70%] lg:max-w-full mx-auto text-center">
+                    <div class="radial-progress text-[#FFB546] rotate-90 mb-5" style="--value:90;" role="progressbar">
+                        <span class="-rotate-90 text-xl font-extrabold">90%</span>
+                    </div>
+                    <h2 class="mb-3 text-xl font-semibold">Prayer Facility</h2>
+                    <p class="text-[#13131865]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="max-w-[70%] lg:max-w-full mx-auto text-center">
+                    <div class="radial-progress text-[#4C8DF1] rotate-90 mb-5" style="--value:80;" role="progressbar">
+                        <span class="-rotate-90 text-xl font-extrabold">80%</span>
+                    </div>
+                    <h2 class="mb-3 text-xl font-semibold">Prayer Facility</h2>
+                    <p class="text-[#13131865]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
 
     </footer>
