@@ -57,7 +57,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <div class="text-3xl font-extrabold">Hockey<strong class="text-[#FF4240]">’</strong>s</div>
+                    <a href="/" class="text-3xl font-extrabold">Hockey<strong class="text-[#FF4240]">’</strong>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex ">
                     <ul class="menu menu-horizontal px-1 font-semibold">
@@ -75,66 +75,69 @@
             </div>
         </nav>
 
-        <section id="slider" class="mb-10 lg:mb-20">
-            <!-- Responsive -->
-            <div class="carousel w-full h-[480px] lg:h-[550px]">
-                <div id="slide1" class="carousel-item relative w-full h-full">
-                    <img src="images/slider.png" class="w-full rounded-xl lg:rounded-3xl h-[280px] lg:h-[550px]" />
+        <section id="slider" class="mt-4 mb-10 lg:mb-20">
+            <div class="carousel w-full h-[40vh] lg:h-[60vh]">
+                <div id="slide1"
+                    class="carousel-item relative w-full h-auto bg-[url(images/slider.png)] bg-center bg-cover flex items-center justify-center rounded-xl">
                     <div
-                        class="absolute flex gap-4 transform translate-x-1/2 translate-y-1/2 bottom-[50%] left-[30%] lg:left-5 lg:bottom-20">
-                        <a href="#slide3" class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white">❮</a>
-                        <a href="#slide2" class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white">❯</a>
+                        class="hidden lg:block absolute bottom-10 right-10 bg-stone-900 rounded-lg px-5 py-3 w-1/2 text-white">
+                        <h1 class="text-xl font-bold mb-2">Meet all the heroes from the field</h1>
+                        <p class="opacity-70 text-base">Heroes from various fields include scientists like Marie Curie,
+                            activists like Malala
+                            Yousafzai, and innovators like Steve Jobs. Their contributions inspire and shape our world
+                            for the better.</p>
                     </div>
                     <div
-                        class="absolute max-w-max lg:max-w-[560px] lg:max-h-[165px] bottom-0 lg:bottom-6 lg:right-6 bg-[#131318] text-white rounded-xl p-8">
-                        <h3 class="font-extrabold text-2xl mb-4">
-                            Meet all the heroes from the field
-                        </h3>
-                        <p class="text-[#FFFFFF65]">
-                            Heroes from various fields include scientists like Marie Curie, activists like Malala
-                            Yousafzai, and innovators like Steve Jobs. Their contributions inspire and shape our world
-                            for the better.
-                        </p>
+                        class="absolute bottom-0 left-50 right-50 lg:left-8 space-x-4 flex justify-between transform -translate-y-1/2">
+                        <a href="#slide3"
+                            class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❮</a>
+                        <a href="#slide2"
+                            class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❯</a>
                     </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full h-full">
-                    <img src="images/slider.png" class="w-full rounded-xl lg:rounded-3xl h-[280px] lg:h-[550px]" />
+                <div id="slide2"
+                    class="carousel-item relative w-full h-auto bg-[url(images/slider.png)] bg-center bg-cover flex items-center justify-center rounded-xl">
                     <div
-                        class="absolute flex gap-4 transform translate-x-1/2 translate-y-1/2 bottom-[50%] left-[30%] lg:left-5 lg:bottom-20">
-                        <a href="#slide1" class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white">❮</a>
-                        <a href="#slide3" class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white">❯</a>
+                        class="hidden lg:block absolute bottom-10 right-10 bg-stone-900 rounded-lg px-5 py-3 w-1/2 text-white">
+                        <h1 class="text-xl font-bold mb-2">Meet all the heroes from the field</h1>
+                        <p class="opacity-70 text-base">Heroes from various fields include scientists like Marie Curie,
+                            activists like Malala
+                            Yousafzai, and innovators like Steve Jobs. Their contributions inspire and shape our world
+                            for the better.</p>
                     </div>
                     <div
-                        class="absolute max-w-max lg:max-w-[560px] lg:max-h-[165px] bottom-0 lg:bottom-6 lg:right-6 bg-[#131318] text-white rounded-xl p-8">
-                        <h3 class="font-extrabold text-2xl mb-4">
-                            Meet all the heroes from the field
-                        </h3>
-                        <p class="text-[#FFFFFF65]">
-                            Heroes from various fields include scientists like Marie Curie, activists like Malala
-                            Yousafzai, and innovators like Steve Jobs. Their contributions inspire and shape our world
-                            for the better.
-                        </p>
+                        class="absolute bottom-0 left-50 right-50 lg:left-8 space-x-4 flex justify-between transform -translate-y-1/2">
+                        <a href="#slide1"
+                            class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❮</a>
+                        <a href="#slide3"
+                            class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❯</a>
                     </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full h-full">
-                    <img src="images/slider.png" class="w-full rounded-xl lg:rounded-3xl h-[280px] lg:h-[550px]" />
+                <div id="slide3"
+                    class="carousel-item relative w-full h-auto bg-[url(images/slider.png)] bg-center bg-cover flex items-center justify-center rounded-xl">
                     <div
-                        class="absolute flex gap-4 transform translate-x-1/2 translate-y-1/2 bottom-[50%] left-[30%] lg:left-5 lg:bottom-20">
-                        <a href="#slide2" class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white">❮</a>
-                        <a href="#slide1" class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white">❯</a>
+                        class="hidden lg:block absolute bottom-10 right-10 bg-stone-900 rounded-lg px-5 py-3 w-1/2 text-white">
+                        <h1 class="text-xl font-bold mb-2">Meet all the heroes from the field</h1>
+                        <p class="opacity-70 text-base">Heroes from various fields include scientists like Marie Curie,
+                            activists like Malala
+                            Yousafzai, and innovators like Steve Jobs. Their contributions inspire and shape our world
+                            for the better.</p>
                     </div>
                     <div
-                        class="absolute max-w-max lg:max-w-[560px] lg:max-h-[165px] bottom-0 lg:bottom-6 lg:right-6 bg-[#131318] text-white rounded-xl p-8">
-                        <h3 class="font-extrabold text-2xl mb-4">
-                            Meet all the heroes from the field
-                        </h3>
-                        <p class="text-[#FFFFFF65]">
-                            Heroes from various fields include scientists like Marie Curie, activists like Malala
-                            Yousafzai, and innovators like Steve Jobs. Their contributions inspire and shape our world
-                            for the better.
-                        </p>
+                        class="absolute bottom-0 left-50 right-50 lg:left-8 space-x-4 flex justify-between transform -translate-y-1/2">
+                        <a href="#slide2"
+                            class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❮</a>
+                        <a href="#slide1"
+                            class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❯</a>
                     </div>
                 </div>
+            </div>
+            <div class="lg:hidden bg-stone-900 rounded-lg px-5 py-3 w-full text-white">
+                <h1 class="text-xl font-bold mb-2">Meet all the heroes from the field</h1>
+                <p class="opacity-70 text-base">Heroes from various fields include scientists like Marie Curie,
+                    activists like Malala
+                    Yousafzai, and innovators like Steve Jobs. Their contributions inspire and shape our world
+                    for the better.</p>
             </div>
         </section>
     </header>
@@ -145,8 +148,9 @@
                 <div class="max-w-[80%] mx-auto">
                     <h1 class="text-2xl lg:text-4xl font-extrabold mb-4">Professional Hockeys Club</h1>
                     <p class="text-[#13131865]">
-                        Elite hockey club, excelling on ice with skilled players, strategic brilliance, and unwavering
-                        teamwork, dominating leagues and thrilling fans worldwide.
+                        Heroes from various fields include scientists like Marie Curie, activists like Malala
+                        Yousafzai, and innovators like Steve Jobs. Their contributions inspire and shape our world
+                        for the better.
                     </p>
                 </div>
             </div>
@@ -205,13 +209,12 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 grid-rows-3 lg:grid-rows-12 gap-4 lg:gap-6">
-                <div class="row-span-1 lg:row-span-5 card lg:h-auto bg-base-100 shadow-xl image-full">
+                <div class="row-span-1 lg:row-span-5 card lg:h-auto shadow-xl image-full">
                     <figure>
                         <img src="images/program-1.png" class="w-full" alt="Program" />
                     </figure>
-                    <div class="card-body p-6 lg:p-8">
-                        <p></p>
-                        <div class="card-actions justify-start">
+                    <div class="card-body h-full justify-end lg:w-11/12 p-6 lg:p-8">
+                        <div class="card-actions justify-start gap-0 lg:gap-1">
                             <h2 class="font-extrabold text-white text-xl lg:text-2xl mb-3 lg:mb-4">
                                 Junior Program
                             </h2>
@@ -226,13 +229,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row-span-1 lg:row-span-5 card h-auto bg-base-100 shadow-xl image-full">
+                <div class="row-span-1 lg:row-span-5 card bg-black h-auto shadow-xl image-full">
                     <figure>
                         <img src="images/program-2.png" class="w-full" alt="Program" />
                     </figure>
-                    <div class="card-body p-6 lg:p-8">
-                        <p></p>
-                        <div class="card-actions justify-start">
+                    <div class="card-body h-full justify-end lg:w-11/12 p-6 lg:p-8">
+                        <div class="card-actions justify-start gap-0 lg:gap-1">
                             <h2 class="font-extrabold text-white text-xl lg:text-2xl mb-3 lg:mb-4">
                                 Teenager Program
                             </h2>
@@ -247,20 +249,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="row-span-1 lg:row-span-7 lg:col-span-2 card h-auto bg-base-100 shadow-xl image-full">
+                <div class="row-span-1 lg:row-span-7 lg:col-span-2 card h-auto shadow-xl image-full">
                     <figure>
                         <img src="images/program-3.png" class="w-full" alt="Program" />
                     </figure>
-                    <div class="card-body lg:w-1/2 p-6 lg:p-8">
-                        <p></p>
-                        <div class="card-actions justify-start">
+                    <div class="card-body h-full justify-end lg:w-1/2 p-6 lg:p-8">
+                        <div class="card-actions justify-start gap-0 lg:gap-1">
                             <h2 class="font-extrabold text-white text-xl lg:text-2xl mb-3 lg:mb-4">
                                 Professional Program
                             </h2>
                             <p class="mb-3 lg:mb-6 lg:text-lg">
                                 Tailored for career growth, our professional program delivers advanced skills and
                                 knowledge. Expert-led training, real-world projects, and industry-relevant insights
-                                ensure your success in today's competitive job market.
+                                ensure your success in today's competitive job.
                             </p>
                             <button class="bg-[#FF4240] text-white font-semibold px-6 py-2 rounded-lg">
                                 Register Now
@@ -631,23 +632,24 @@
                     </p>
                 </div>
             </div>
-            <div class="grid lg:grid-cols-8 gap-6">
-                <div class="grid gap-4 p-6 lg:p-10 lg:col-span-3 border-2 rounded-xl">
-                    <div class="h-[220px] p-8 bg-[#BCED6D1A] rounded-xl">
+            <div class="grid lg:grid-cols-3 gap-6">
+                <!-- Left Side -->
+                <div class="flex flex-col gap-4 p-4 lg:p-6 border rounded-xl w-full mx-auto">
+                    <div class="p-8 bg-[#BCED6D1A] rounded-xl">
                         <img src="images/telephone.png" class="pb-6" alt="">
                         <div>
                             <p class="mb-1 text-[#13131870]">Phone Number : </p>
                             <h5 class="text-lg font-extrabold">(+62) 123-321-543</h5>
                         </div>
                     </div>
-                    <div class="h-[220px] p-8 bg-[#FDDD5F1A] rounded-xl">
+                    <div class="p-8 bg-[#FDDD5F1A] rounded-xl">
                         <img src="images/mail.png" class="pb-6" alt="">
                         <div>
                             <p class="mb-1 text-[#13131870]">Email : </p>
                             <h5 class="text-lg font-extrabold">hockeys@support.com</h5>
                         </div>
                     </div>
-                    <div class="h-[220px] p-8 bg-[#629CF31A] rounded-xl">
+                    <div class="p-8 bg-[#629CF31A] rounded-xl">
                         <img src="images/map.png" class="pb-6" alt="">
                         <div>
                             <p class="mb-1 text-[#13131870]">Location : </p>
@@ -655,55 +657,51 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col lg:col-span-5 gap-4 lg:gap-4">
-                    <div class="flex flex-col lg:flex-row gap-4">
-                        <div class="lg:w-1/2">
-                            <label class="form-control w-full">
-                                <div class="label">
-                                    <span class="text-xl font-bold">Your Name</span>
-                                </div>
-                                <input type="text" placeholder="Type here" class="w-full input input-bordered p-5" />
-                            </label>
-                        </div>
-                        <div class="lg:w-1/2">
-                            <label class="form-control w-full">
-                                <div class="label">
-                                    <span class="text-xl font-bold">Your Email</span>
-                                </div>
-                                <input type="text" placeholder="Type here" class="w-full input input-bordered p-5" />
-                            </label>
-                        </div>
+                <!-- Right Side -->
+                <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 lg:col-span-2 lg:mt-0 mt-6">
+                    <div class="flex flex-col">
+                        <label class="text-xl font-bold mb-4">Your Name</label>
+                        <input type="text" placeholder="Enter your full name"
+                            class="w-full bg-[#13131808] p-4 border outline-none rounded-xl" />
                     </div>
-                    <div class="flex flex-col lg:flex-row gap-4">
-                        <div class="lg:w-1/2">
-                            <label class="form-control w-full">
-                                <div class="label">
-                                    <span class="text-xl font-bold">Subject</span>
-                                </div>
-                                <input type="text" placeholder="Type here" class="w-full input input-bordered p-5" />
-                            </label>
-                        </div>
-                        <div class="lg:w-1/2">
-                            <label class="form-control w-full">
-                                <div class="label">
-                                    <span class="text-xl font-bold">Phone Number</span>
-                                </div>
-                                <input type="text" placeholder="Type here" class="w-full input input-bordered p-5" />
-                            </label>
-                        </div>
+                    <div class="flex flex-col">
+                        <label class="text-xl font-bold mb-4">Your Email</label>
+                        <input type="text" placeholder="Enter your email"
+                            class="w-full bg-[#13131808] p-4 border outline-none rounded-xl" />
                     </div>
-                    <div class="col-span-2">
-                        <label class="form-control">
-                            <div class="label">
-                                <span class="text-xl font-bold">Message</span>
-                            </div>
-                            <textarea class="h-[200px] lg:h-[480px] textarea text-base textarea-bordered"
-                                placeholder="Write your message"></textarea>
-                        </label>
+                    <div class="flex flex-col">
+                        <label class="text-xl font-bold mb-4">Subject</label>
+                        <input type="text" placeholder="Enter your subject"
+                            class="w-full bg-[#13131808] p-4 border outline-none rounded-xl" />
                     </div>
-                    <div class="col-span-2">
-                        <button class="w-full py-2 lg:py-4 bg-[#FF4240] lg:text-lg text-white font-bold rounded-xl">Send
-                            Message</button>
+                    <div class="flex flex-col">
+                        <label class="text-xl font-bold mb-4">Phone Number</label>
+                        <input type="text" placeholder="Enter your phone number"
+                            class="w-full bg-[#13131808] p-4 border outline-none rounded-xl" />
+                    </div>
+                    <div class="lg:col-span-2 flex flex-col">
+                        <label class="text-xl font-bold mb-4">Message</label>
+                        <textarea class="w-full bg-[#13131808] p-4 border outline-none rounded-xl" cols="30" rows="10"
+                            placeholder="Write your message"></textarea>
+                    </div>
+                    <div class="lg:col-span-2 flex flex-col">
+                        <button
+                            class="w-full py-2 lg:py-4 bg-[#FF4240] lg:text-lg text-white font-medium lg:font-bold rounded-xl">
+                            Send Message
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Social Icons -->
+            <div class="rounded-xl bg-[#13131808] p-8 flex justify-center mt-12">
+                <div>
+                    <h3 class="text-[#131318] text-2xl font-extrabold text-center">Social Media</h3>
+                    <div class="flex justify-center gap-4 mt-4 *:text-[#131318]">
+                        <a href="#"><i class="ri-twitter-fill text-2xl"></i></a>
+                        <a href="#"><i class="ri-facebook-fill text-2xl"></i></a>
+                        <a href="#"><i class="ri-instagram-fill text-2xl"></i></a>
+                        <a href="#"><i class="ri-github-fill text-2xl"></i></a>
+                        <a href="#"><i class="ri-linkedin-fill text-2xl"></i></a>
                     </div>
                 </div>
             </div>
